@@ -51,8 +51,71 @@
                 <p class="header-paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
             </div>
         </header>
-        <main class="content"></main>
-        <footer class="footer"></footer>
+        <main class="content">
+            <section id="reservation" class="reservation">
+
+                <h2 class="reservation__title">Reserva una mesa</h2>
+
+                <form class="reservation__form form" action="#" method="post">
+
+                    <fieldset class="form__fieldset">
+
+                        <div class="form__field-group">
+                            <label class="form__label" for="name">Nombre*</label>
+                            <input class="form__input" type="text" id="name" name="name" placeholder="Nombre" required>
+
+                            <label class="form__label" for="guests">Número de comensales*</label>
+                            <input class="form__input" type="number" id="guests" name="guests" min="1" max="8"
+                                placeholder="1-8" required>
+
+                            <label class="form__label" for="date">Fecha y hora*</label>
+                            <input class="form__input" type="datetime-local" id="date" name="date" required>
+
+                            <label class="form__label" for="email">Tu correo electrónico*</label>
+                            <input class="form__input" type="email" id="email" name="email"
+                                placeholder="email@email.com" required>
+                        </div>
+
+                        <button class="form__button" type="submit">Reservar una mesa</button>
+
+                        <label class="form__label form__label_type_checkbox">
+                            <input class="form__checkbox" type="checkbox" name="terms" required>
+                            Acepto los términos de uso
+                        </label>
+
+                    </fieldset>
+
+                </form>
+
+            </section>
+        </main>
+        <footer id="contact" class="footer">
+            <div class="footer__content">
+                <img src="./images/logo_coffeeshop_light.svg" alt="Logo Triple Peaks" class="footer__logo">
+
+                <div class="footer__social">
+                    <h3 class="footer__social-heading">Redes sociales</h3>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="https://facebook.com" class="footer__social-link" target="_blank">
+                                <img src="./images/facebook_white.svg" alt="Facebook" class="footer__social-icon">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="https://instagram.com" class="footer__social-link" target="_blank">
+                                <img src="./images/instagram_white.svg" alt="Instagram" class="footer__social-icon">
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__circle"></div>
+
+            <p class="footer__copyright">&copy; 2026 Fernando Cuarenta</p>
+        </footer>
     </div>
 </body>
 

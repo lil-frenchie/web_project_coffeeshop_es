@@ -100,3 +100,184 @@
   font-size: 16px;
   line-height: 20px;
 }
+.reservation {
+  background-color: #ffd6c5;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  margin: 0 auto 80px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  max-width: 385px;
+  width: 100%;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__button {
+  width: 100%;
+  height: 60px;
+  background-color: #e96e3a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin: 0 12px 0 0;
+  cursor: pointer;
+  accent-color: #ff976b;
+}
+.footer {
+  background-color: #d35722;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 80px;
+}
+
+.footer__circle {
+  width: 340px;
+  height: 340px;
+  background-color: #e96e3a;
+  border-radius: 50%;
+  position: absolute;
+  top: -128px;
+  left: -44px;
+  z-index: 1;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  z-index: 2;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__social {
+  text-align: right;
+}
+
+.footer__social-heading {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-top: 108px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  z-index: 2;
+}
